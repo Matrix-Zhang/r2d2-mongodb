@@ -1,0 +1,17 @@
+[package]
+name = "r2d2_mongodb"
+version = "0.1.0"
+authors = ["Matrix <Pigex.Zhang@gmail.com>"]
+license = "MIT"
+description = "Mongodb support for the r2d2 connection pool"
+repository = "https://github.com/sorccu/r2d2-redis"
+keywords = ["mongodb", "pool", "database", "r2d2"]
+
+[lib]
+name = "r2d2_mongodb"
+path = "src/lib.rs"
+test = false
+
+[dependencies]
+r2d2 = "^0.7.0"
+mongodb = "^0.1.4"
