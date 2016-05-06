@@ -31,7 +31,7 @@ impl error::Error for Error {
     }
 }
 
-struct MongodbConnectionManager {
+pub struct MongodbConnectionManager {
     host: String,
     port: u16,
 }
